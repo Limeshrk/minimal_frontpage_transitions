@@ -79,11 +79,11 @@ body {
 
 .main-textbox {
   float: left;
-  width: 40vw; /*needs a limit or pushes down image */
+  width: 50vw; /*needs a limit or pushes down the image, optimized for 1366x768 and 1920x1080*/
 }
 .main-image{
   float: right;
-  width: 30vw;
+  margin: 0px; /* removes default img margin */
 }
 
 /* Main content text setup */
